@@ -18,6 +18,7 @@ Task tMqtt ( TASK_IMMEDIATE, TASK_FOREVER, &mqttWaitForWifi, &ts, true, &mqttSet
 bool mqttSetup() {
     Serial.println("Mqtt setup");
     mqttClient.setServer(MQTT_HOST, MQTT_PORT);
+    mqttClient.setCredentials("adam53r", "3457sdAAAhsa7d9fa");
     tMqtt.delay(5000);
     return true;
 }
@@ -32,7 +33,6 @@ void mqttWaitForWifi() {
 };
 
 void mqttConnect() {
-    mqttClient.setServer(MQTT_HOST, MQTT_PORT);
     mqttClient.connect();
     tMqtt.delay(2000);
     tMqtt.setCallback(&mqttWaitForConnect);
