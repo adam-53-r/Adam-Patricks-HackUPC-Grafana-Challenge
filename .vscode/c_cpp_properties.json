@@ -10,6 +10,7 @@
             "includePath": [
                 "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/include",
                 "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/src",
+                "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/.pio/libdeps/default/ArduinoHttpClient/src",
                 "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/.pio/libdeps/default/AsyncMqttClient-esphome/src",
                 "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/.pio/libdeps/default/TaskScheduler/src",
                 "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/.pio/libdeps/default/Wifi Manager for ESP32/src",
@@ -209,7 +210,6 @@
                 "/home/adamr/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/qio_qspi/include",
                 "/home/adamr/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                 "/home/adamr/.platformio/packages/framework-arduinoespressif32/variants/esp32",
-                "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/.pio/libdeps/default/AsyncTCP-esphome@1.2.2/src",
                 "/home/adamr/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                 "/home/adamr/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src",
                 "/home/adamr/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src",
@@ -246,6 +246,7 @@
                 "path": [
                     "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/include",
                     "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/src",
+                    "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/.pio/libdeps/default/ArduinoHttpClient/src",
                     "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/.pio/libdeps/default/AsyncMqttClient-esphome/src",
                     "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/.pio/libdeps/default/TaskScheduler/src",
                     "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/.pio/libdeps/default/Wifi Manager for ESP32/src",
@@ -445,7 +446,6 @@
                     "/home/adamr/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/qio_qspi/include",
                     "/home/adamr/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                     "/home/adamr/.platformio/packages/framework-arduinoespressif32/variants/esp32",
-                    "/home/adamr/Adam/Projects/HackUPC/Graphana_Challenge/ESP32/.pio/libdeps/default/AsyncTCP-esphome@1.2.2/src",
                     "/home/adamr/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                     "/home/adamr/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src",
                     "/home/adamr/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src",
